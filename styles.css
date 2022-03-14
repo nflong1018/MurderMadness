@@ -1,0 +1,26 @@
+body {
+    background-color: #f0f0f0;
+}
+
+header {
+    
+    background-image: url(https://img.nickpic.host/Ao3aMG.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.headertitle {
+    font-family: 'Special Elite', serif;
+    text-align: center;
+    color: #fff;
+    font-size: 7em;
+    padding-top: 35px;
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+ }
+
