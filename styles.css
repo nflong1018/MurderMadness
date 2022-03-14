@@ -1,8 +1,4 @@
 body {
-
-}
-
-#mainwrapper {
     width: 100%;
     height: 100vh;
     min-height: 1200px;
@@ -15,7 +11,7 @@ body {
     position: relative;
 }
 
-#mainwrapper::before {
+body::before {
     content: "";
     width: 100%;
     height: 100vh;
@@ -24,16 +20,24 @@ body {
     background-color: #121212;
     opacity: 0.4;
     margin: 0 auto;
-    display: inline-block;
   }
+
+
+  header {
+    top: 50px;
+    position: relative;
+}
 
   #innerwrapper {
     width: 90%;
     border: 1px solid #fff;
     margin: auto;
-    top: 50px;
+    top: 75px;
     padding: 1.5em;
-    margin: 0 auto;
+    position: relative;
+    color: #fff;
+    font-family: parisine-std-clair, sans-serif;
+    display: flex;
   }
 
   .title {
@@ -56,6 +60,4 @@ body {
     letter-spacing: 0.2em;
   }
 
-  header {
-      top: 50px;
-  }
+  
