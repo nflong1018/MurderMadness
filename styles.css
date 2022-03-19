@@ -11,6 +11,7 @@ body {
 }
 .container {
   display: grid;
+  background-color: rgba(18, 18, 18, 0.25);
   grid-template-columns: 0.2fr 1.8fr 1fr;
   grid-template-rows: 0.2fr 2.2fr 0.1fr;
   gap: 0px 0px;
