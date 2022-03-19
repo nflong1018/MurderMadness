@@ -67,3 +67,14 @@ article {
   background-color: rgba(18, 18, 18, 0.4);
   margin: 1em;
 }
+
+/*** tablet ***/
+
+@media screen and (min-width: 768px;) and (max-width: 1079px;) {
+	// custom CSS
+}
+
+/*** desktop ***/
+@media screen and (min-width: 1080px) {
+	// custom CSS
+}
