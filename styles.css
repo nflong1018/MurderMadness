@@ -22,9 +22,13 @@ body {
 }
 .side-nav {
   grid-area: side-nav;
+  color: #f5f5f5;
+  font-size: 4em;
+
 }
 .header {
   grid-area: header;
+  padding-top: 2em;
 }
 .content {
   grid-area: content;
@@ -34,6 +38,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin: 2em;
 }
 .footer {
   grid-area: footer;
@@ -59,7 +64,6 @@ body {
 article {
   padding: 2em;
   text-align: justify;
-  width: 40%;
   background-color: rgba(18, 18, 18, 0.4);
   margin: 1em;
 }
