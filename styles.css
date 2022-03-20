@@ -94,7 +94,7 @@ article {
 
 .menubutton {
   color: #f5f5f5;
-margin: .3em;
+  margin: .3em;
 justify-self: center;
 background: none;
 }
@@ -111,10 +111,19 @@ display: inline-block;
 .menucontent {
 display: none;
 position: absolute;
-background-color: #fff;
-width: 200px;
-height: 200px;
-z-index: 2;
+background-color: rgba(18, 18, 18, 0.8);
+width: 2em;
+height: 10em;
+margin-left: 1em;
+z-index: 1;
+font-size: 0.5em;
+text-align: justify;
+font-family: parisine-std-clair, sans-serif;
+}
+
+.menucontent a {
+  color: #f5f5f5;
+  text-decoration: none;
 }
 
 .show {
