@@ -14,3 +14,8 @@ function myFunction() {
       }
     }
   }
+
+  function showName(){
+    var message = document.getElementById("message").value;
+    document.getElementById("show").innerText = message
+}
