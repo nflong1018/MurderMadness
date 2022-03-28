@@ -79,7 +79,7 @@ article {
   padding: 2em;
   text-align: justify;
   background-color: rgba(18, 18, 18, 0.4);
-  margin: 1em;
+  margin: 0.5em;
 }
 
 /*** tablet ***/
@@ -87,6 +87,7 @@ article {
 @media screen and (min-width: 768px) and (max-width: 1079px) {
 	article {
     width: 34%;
+    margin: 0.7em;
   }
 }
 
@@ -94,6 +95,7 @@ article {
 @media screen and (min-width: 1080px) {
 	article {
     width: 40%;
+    margin: 1em;
   }
 }
 
