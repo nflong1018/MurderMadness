@@ -86,13 +86,14 @@ article {
 
 @media screen and (min-width: 768px) and (max-width: 1079px) {
 	article {
-    width: 40%;
+    width: 50%;
     margin: 0.7em;
   }
 }
 
 /*** desktop ***/
 @media screen and (min-width: 1080px) {
+
 	article {
     width: 25%;
     margin: 1em;
